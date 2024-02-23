@@ -35,3 +35,19 @@ body {
 .tab-content.active {
     display: block;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center; /* Center align content */
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
