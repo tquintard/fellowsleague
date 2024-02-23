@@ -4,6 +4,10 @@ body {
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
 
+header {
+    white-space: nowrap; /* Prevent tab buttons from wrapping */
+}
+
 .tabs ul {
     list-style-type: none;
     /*margin: 0;*/
