@@ -46,6 +46,9 @@ table td {
     padding: 8px;
     text-align: center; /* Center align content */
     border: 1px solid #ddd;
+    white-space: nowrap; /* Prevent tab buttons from wrapping */
+    overflow-x: auto; /* Enable horizontal scrollbar */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
 
 table th {
