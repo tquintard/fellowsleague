@@ -3,6 +3,9 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    white-space: nowrap; /* Prevent tab buttons from wrapping */
+    overflow-x: auto; /* Enable horizontal scrollbar */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
 
 .tabs ul li {
@@ -26,12 +29,4 @@
 
 .tab-content.active {
     display: block;
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 600px) {
-    .tabs ul li {
-        display: block;
-        margin-bottom: 20px; /* Adjust spacing between tabs */
-    }
 }
