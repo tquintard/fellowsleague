@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fellows' League</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
         <h1>Welcome to the Fellows' League</h1>
@@ -22,24 +20,46 @@
     </nav>
     <main>
         <div id="fixtures" class="tab-content">
-            <h2>Next Fixtures</h2>
-            <!-- Placeholder content for next fixtures -->
-            <p>No upcoming fixtures</p>
+            <!-- Content for Fixtures tab -->
         </div>
         <div id="ranking" class="tab-content">
             <h2>Ranking</h2>
-            <!-- Placeholder content for ranking -->
-            <p>No ranking available</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        <th>Played</th>
+                        <th>Win</th>
+                        <th>Lose</th>
+                        <th>Draw</th>
+                        <th>Scored</th>
+                        <th>Conceded</th>
+                        <th>GD</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows for teams -->
+                    <tr>
+                        <td>Team 1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
         </div>
         <div id="consult-results" class="tab-content">
-            <h2>Consult Results</h2>
-            <!-- Placeholder content for results -->
-            <p>No results to consult</p>
+            <!-- Content for Consult Results tab -->
         </div>
         <div id="edit-results" class="tab-content">
-            <h2>Edit Results</h2>
-            <!-- Placeholder content for editing results -->
-            <p>Edit results functionality will be available here.</p>
+            <!-- Content for Edit Results tab -->
         </div>
     </main>
     <footer>
@@ -48,5 +68,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
