@@ -1,7 +1,7 @@
 /* Styles for larger screens */
 .tabs ul {
     list-style-type: none;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     white-space: nowrap; /* Prevent tab buttons from wrapping */
     overflow-x: auto; /* Enable horizontal scrollbar */
