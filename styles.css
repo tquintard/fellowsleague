@@ -6,12 +6,11 @@ body {
 
 .tabs ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-collapse: collapse;
+    /*margin: 0;*/
+    /*padding: 0;*/
     white-space: nowrap; /* Prevent tab buttons from wrapping */
-    overflow-x: auto; /* Enable horizontal scrollbar */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    /*overflow-x: auto; /* Enable horizontal scrollbar */
+    /*-webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
 
 .tabs ul li {
