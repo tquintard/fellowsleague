@@ -38,6 +38,7 @@ body {
 
 table {
     width: 100%;
+    table-layout: fixed; /* Fix the layout to prevent cells from resizing */
     border-collapse: collapse;
 }
 
@@ -46,9 +47,8 @@ table td {
     padding: 8px;
     text-align: center; /* Center align content */
     border: 1px solid #ddd;
-    white-space: nowrap; /* Prevent tab buttons from wrapping */
-    overflow-x: auto; /* Enable horizontal scrollbar */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    width: 100px; /* Set fixed width for table cells */
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
 table th {
