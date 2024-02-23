@@ -8,7 +8,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*width: 100%;*/
+    width: 100%;
     white-space: nowrap; /* Prevent tab buttons from wrapping */
     overflow-x: auto; /* Enable horizontal scrollbar */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
@@ -19,7 +19,7 @@ body {
 }
 
 .tabs ul li a {
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #f0f0f0;
     text-decoration: none;
     color: #333;
