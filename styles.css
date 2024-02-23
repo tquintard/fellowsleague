@@ -8,7 +8,8 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*white-space: nowrap; /* Prevent tab buttons from wrapping */
+    width: 100%;
+    white-space: nowrap; /* Prevent tab buttons from wrapping */
     overflow-x: auto; /* Enable horizontal scrollbar */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
