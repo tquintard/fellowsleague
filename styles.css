@@ -33,3 +33,11 @@ body {
 .tab-content.active {
     display: block;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .tabs ul li {
+        display: block;
+        margin-bottom: 10px; /* Adjust spacing between tabs */
+    }
+}
