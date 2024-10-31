@@ -1,57 +1,44 @@
-/* Styles for larger screens */
-body {
-    overflow-x: auto; /* Enable horizontal scrollbar */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-}
-
-header {
-    white-space: nowrap; /* Prevent tab buttons from wrapping */
-}
-
-.tabs ul {
-    list-style-type: none;
-    /*margin: 0;*/
+* {
+    margin: 0;
     padding: 0;
-    white-space: nowrap; /* Prevent tab buttons from wrapping */
-    /*overflow-x: auto; /* Enable horizontal scrollbar */
-    /*-webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    box-sizing: border-box;
 }
 
-.tabs ul li {
-    display: inline;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
 }
 
-.tabs ul li a {
-    padding: 15px 20px;
-    background-color: #f0f0f0;
-    text-decoration: none;
+.profile-container {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profile-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
     color: #333;
 }
 
-.tabs ul li a:hover {
-    background-color: #ddd;
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.tab-content {
-    display: none;
-}
-
-.tab-content.active {
-    display: block;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table th,
-table td {
-    padding: 8px;
-    text-align: center; /* Center align content */
-    border: 1px solid #ddd;
-}
-
-table th {
-    background-color: #f2f2f2;
+.description {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
 }
